@@ -1,7 +1,7 @@
-## makeCacheVector function creates a matrix that can cache its matrix and 
-## cacheSolve computes the inverse of matrix created by makeCacheVector function
+## The first function creates the matrix that can cache
+## The second function computes the inverse
 
-
+## makeCacheVector function creates a matrix that can cache its matrix 
 
 makeCacheVector <- function(x = numeric()) {
         m <- NULL
@@ -17,7 +17,7 @@ makeCacheVector <- function(x = numeric()) {
              getinverse = getinverse)
 }
 
-
+## cacheSolve computes the inverse of matrix created by makeCacheVector function
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
